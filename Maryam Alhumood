@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maryam's Cosmos</title>
+    <style>
+        /* General styles */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            color: #f0f0f0;
+            background-color: #0d1b2a;
+            background-image: url('https://www.w3schools.com/w3images/space.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        header {
+            text-align: center;
+            padding: 2rem;
+            background: rgba(0, 0, 0, 0.6);
+            border-bottom: 2px solid #415a77;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            color: #e0e1dd;
+            text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+        }
+        header p {
+            font-size: 1.2rem;
+            color: #9aa5b1;
+            font-style: italic;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+        .content {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        section h2 {
+            font-size: 2rem;
+            color: #e0e1dd;
+            border-bottom: 1px solid #415a77;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        section p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: rgba(0, 0, 0, 0.6);
+            border-top: 2px solid #415a77;
+            font-size: 0.9rem;
+        }
+        a {
+            color: #86bbd8;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        /* Star Wars icon addition */
+        .star-wars {
+            font-size: 1.5rem;
+            color: #f0f0f0;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+        }
+        .planet-icon {
+            font-size: 2rem;
+            color: #f0f0f0;
+            margin-right: 10px;
+        }
+        .planet-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Maryam's Cosmos</h1>
+        <p>"To confine our attention to terrestrial matters would be to limit the human spirit." – Stephen Hawking</p>
+    </header>
+    <div class="content">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi, I’m Maryam! A student fascinated by the mysteries of the universe and the depth of human thought. I love exploring the intersection of philosophy and physics—where questions about existence meet the laws of nature. When I’m not studying, you can find me reading, playing chess, or working on passion projects that reflect my curiosity about the world.</p>
+        </section>
+        <section id="interests">
+            <h2>My Interests</h2>
+            <p>I’m passionate about a few key areas:</p>
+            <ul>
+                <li><strong>Physics:</strong> Delving into topics like time travel and the nature of space-time.</li>
+                <li><strong>Philosophy:</strong> Pondering life's big questions and the frameworks of thought.</li>
+                <li><strong>Creativity:</strong> Writing and exploring new ideas for personal projects.</li>
+            </ul>
+        </section>
+        <section id="star-wars">
+            <h2 class="star-wars">A Little Star Wars Vibe</h2>
+            <p>Just like the Force, I believe in balance—whether it’s in the universe or in life. May the Force be with you!</p>
+            <div class="planet-icons">
+                <span class="planet-icon">🌍</span>
+                <span class="planet-icon">🌑</span>
+                <span class="planet-icon">🪐</span>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out! Whether you want to collaborate or discuss your favorite philosophical theories, I’d love to connect.</p>
+            <p>Email: <a href="mailto:maryamalhumood@icloud.com">maryamalhumood@icloud.com</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>© 2024 Maryam's Cosmos | Designed with curiosity and inspiration.</p>
+    </footer>
